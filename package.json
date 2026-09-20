@@ -1,0 +1,23 @@
+{
+  "name": "claims-mcp",
+  "version": "0.1.0",
+  "description": "A claims memory for agents: assert what you believe, let it decay, surface what contradicts it. MCP server (stdio) plus CLI.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "bin": { "claims-mcp": "src/cli.ts" },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "mcp": "bun src/mcp.ts",
+    "audit": "bash scripts/publish-audit.sh"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}
