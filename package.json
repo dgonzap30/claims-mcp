@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "A claims memory for agents: assert what you believe, let it decay, surface what contradicts it. MCP server (stdio) plus CLI.",
   "license": "MIT",
+  "mcpName": "io.github.dgonzap30/claims-mcp",
+  "files": ["src", "README.md", "LICENSE", "server.json"],
   "type": "module",
   "private": true,
   "bin": { "claims-mcp": "src/cli.ts" },
