@@ -72,6 +72,10 @@ Set `AUDIT_TERMS="name1|name2"` to add your own private names to the audit.
 
 Not a straight extraction. The decay curve and the rank-drop rule are ported from a personal agent memory (rank-drop now takes caller-supplied observations); the `duplicate-rank` and `status-conflict` rules are new claim-vs-claim logic written for this package. It shares no code, data or storage with the original.
 
+## Author
+
+Built by [Diego González Zapiain](https://dgonzap30.github.io/) at [Lojik Labs](https://wearelojik.com). Listed on the [official MCP Registry](https://registry.modelcontextprotocol.io) as `io.github.dgonzap30/claims-mcp`.
+
 ## Licence
 
 MIT
